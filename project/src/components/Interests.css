@@ -1,0 +1,33 @@
+
+.heart-img{
+    width:120px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+    transition: transform 0.3s ease; 
+    height: auto;
+}
+
+.title-box:hover .heart-img {
+    transform: scale(1.2);
+}
+
+.big-container{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 20px;
+
+
+    width: 80%; 
+    align-content: space-between;
+}

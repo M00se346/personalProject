@@ -1,0 +1,93 @@
+.skillsContainer{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.project{
+    display:flex;
+    flex-direction: row;
+
+    background-color: rgb(136, 74, 132);
+    padding: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 20px;
+
+
+    width: 80%; 
+    align-content: space-between;
+
+}
+
+.inner-left{
+    display:flex;
+    flex-direction: column;
+}
+
+.inner-upper-left h2{
+    margin-top: 5px;
+}
+.inner-upper-left p{
+    margin-bottom: 10px;
+}
+.inner-upper-left{
+    margin-top: 5px;
+    margin-left: -100px;
+}
+
+.bytes-img{
+    width: 400px;
+}
+
+
+
+.title-box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin-top: 50px;
+
+}
+
+.big-title-box{
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+
+}
+
+.laptop-img{
+    width:100px;
+    margin-left: 20px;
+
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+
+@keyframes rotate {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-5deg);
+    }
+    50% {
+      transform: rotate(5deg);
+    }
+    75% {
+      transform: rotate(-5deg);
+    }
+}
+  
+
+.title-box:hover .laptop-img {
+    animation: rotate 0.6s infinite;
+}
