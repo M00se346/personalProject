@@ -32,11 +32,21 @@
 }
 .inner-upper-left{
     margin-top: 5px;
-    margin-left: -100px;
+    margin-left: -50px;
 }
 
-.bytes-img{
+/* .inner-upper-left-title{
+    margin-top: 5px;
+    margin-left: 0px;
+} */
+
+.inner-right{
+    margin-right: 50px;
+}
+
+.project-img{
     width: 400px;
+    border-radius: 5px;
 }
 
 

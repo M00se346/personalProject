@@ -11,7 +11,6 @@ const Hero = () => {
     
     <div>
         <section id="home">
-
         <section className="hero-page">
         
             <header>
@@ -33,8 +32,15 @@ const Hero = () => {
                         My name is Kelsey Musolf and I am a third year student at UC Riverside. I am a Computer Science with Business Applications major as well as a student-athlete on the women's D1 soccer team. 
                     </div>
 
-                    <div className='inner-inner-left-resume'>
+                    <div className='inner-inner-left-resume image-frame'>
                         <a href="https://www.flipsnack.com/A7FBF6BBDC9/kelsey_musolf_resume/full-view.html" target="_blank"  rel="noopener noreferrer" className='resume'>View My Resume (PDF)</a>
+                    </div>
+                    <div className="inner-inner-left">
+                           <h3>Contact Me:</h3>
+                            Email: Kelsey@musolf.net <br/>
+                            Phone: 408-477-5079 <br/>
+                            LinkedIn: <a href="https://www.linkedin.com/in/kelsey-musolf-508650224/" target="_blank"  rel="noopener noreferrer" className="linked-in">Kelsey_Musolf_LinkedIn</a>
+                     
                     </div>
                 </div>
 

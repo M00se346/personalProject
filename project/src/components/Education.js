@@ -8,7 +8,7 @@ import gear from '../assets/gear1.png';
 
 const Education = () => {
   return (
-   
+   <section id="education">
     <section className="edu-page">
         
         <div className="big-title-box">
@@ -33,24 +33,7 @@ const Education = () => {
 
         </section>
 
-        <section id="skills">
-            <div className="big-title-box">
-                <div className="title-box">
-                    <h2 className="title">Skills</h2>
-                    <img src={gear} className="skills-img"/>
-                </div>
-            </div>
-
-            <section className="skillsContainer">
-                <div className="skill">
-                    <h2>Skills</h2>
-                    <p>Java</p>
-                    <p>C++</p>
-                </div>
-            </section>
-        </section>
-
-
+    </section>
     </section>
    
   );

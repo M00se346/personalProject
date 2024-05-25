@@ -6,6 +6,8 @@ import Interests from './components/Interests';
 import Layout from './components/Layout';
 import Contact from './components/Contact';
 import Education from './components/Education';
+import Skills from './components/Skills';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Layout>
         <Hero />
         <Education/>
+        <Skills/>
         <Projects/>
         <Interests/>
         <Contact/>
