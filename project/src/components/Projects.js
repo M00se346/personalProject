@@ -3,6 +3,7 @@ import './Projects.css';
 import laptop from '../assets/laptop.png'; 
 import bytes from '../assets/bytes.jpg'; 
 import tweet from '../assets/tweet.png'; 
+import lab5 from '../assets/lab5.png'; 
 
 
 
@@ -42,6 +43,25 @@ Visual instruction on whiteboards for example walkthroughs, lectures, and defini
             <div className="project">
                 <div className="inner-left">
                     <div className="inner-upper-left">
+                        <h2>NY Times API</h2>
+                    </div>
+                    <div className="inner-upper-left">
+                        <img src={lab5} className='project-img'/>
+                    </div>
+                </div>
+                <div className="inner-right">
+                    <h3>Spring 2024</h3>
+                    <h3>UC Riverside Student Project</h3>
+                    <p>
+                        Using React and Node.js, created a website that filters through recent NY Times articles from their API.<br/><br/> Using React components and hooks to make the site dynamic and interactive. 
+                    </p>
+                </div>
+                
+            </div>
+
+            <div className="project">
+                <div className="inner-left">
+                    <div className="inner-upper-left">
                         <h2>Political Tweets Sentiment Analysis</h2>
                     </div>
                     <div className="inner-upper-left">
@@ -58,6 +78,9 @@ Created a word cloud and presentation to visually show findings
                 </div>
                 
             </div>
+
+          
+
 
 
         </section>

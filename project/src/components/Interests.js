@@ -1,7 +1,18 @@
 import React, {useEffect} from 'react';
 import './Interests.css';
 import heart from '../assets/heart.png'; 
-import dash from '../assets/dash.png'; 
+import dash from '../interests-pics/dash.png'; 
+import gracie from '../interests-pics/gracie.png'; 
+import swe from '../interests-pics/swe.JPG'; 
+import saac1 from '../interests-pics/saac1.JPEG'; 
+import saac2 from '../interests-pics/saac2.JPEG'; 
+import soccer1 from '../interests-pics/soccer1.jpg'; 
+import soccer2 from '../interests-pics/soccer2.JPG'; 
+import tower from '../interests-pics/tower.JPG'; 
+import pie from '../interests-pics/pie.JPG'; 
+import cook from '../interests-pics/cook.JPG'; 
+
+
 
 
 const Interests = () => {
@@ -38,21 +49,37 @@ const Interests = () => {
             <section className='conatiner1'>
                 <div className="item">
                     <div className='inner-item'>
-                        <h3>Cats 🐱</h3>
-                        I have two cats at home, both are russian blues. <br/>
-                        Shown below is Dash! <br/>
+                        <h3>SWE</h3>
+                        I am a member of the club SWE, Society of Women in Engineering!<br/><br/>
+                        I attended the SWE 2023 conference in LA, a chance to network and meet other women in the industry.
                     </div>
                     <div className='inner-item'>
-                        <img src={dash} className='dash-img'/>
+                        <img src={swe} className='interest-img'/>
                     </div>
                 </div>
 
                 <div className="item">
-                    SOMETHING
-                    blah <br/>
-                    blah blah ASDFGHJKSDFGHJK AFSFGH SFG SRGHERGJBW SFJHVBWOUW VSOUYVGNWUTYVWO VOUWYGFV OUWE FUOEGVOJSHV UYSGFVJKS TJS OEFVGSDUHBFV LSJGH OUSYFVH SJDFBV OWRGTVN SODUYFBV OSDJBHG ISDUCHVOSUBF VLJSBFV
-                    blah ASDFGHJKSDFGHJK AFSFGH SFG SRGHERGJBW SFJHVBWOUW VSOUYVGNWUTYVWO VOUWYGFV OUWE FUOEGVOJSHV UYSGFVJKS TJS OEFVGSDUHBFV LSJGH OUSYFVH SJDFBV OWRGTVN SODUYFBV OSDJBHG ISDUCHVOSUBF VLJSBFV
+                    <div className='inner-item'>
+                        <h3>Cats 🐱</h3>
+                        I have two cats at home, both are russian blues. <br/>
+                        Shown below is Dash and then Gracie! <br/>
+                    </div>
+                    <div className='inner-item'>
+                        <img src={dash} className='interest-img'/>
+                    </div>
+                    <div className='inner-item'>
+                        <img src={gracie} className='interest-img'/>
+                    </div>
+                </div>
 
+                <div className="item">
+                    <div className='inner-item'>
+                        <h3>Volunteering</h3>
+                        2016-2019
+                        <br/><br/>
+                        Volunteer at the San Jose Food Shelter for all of Highschool
+                        <br/><br/>
+                   </div>
                 </div>
 
             </section>
@@ -61,10 +88,38 @@ const Interests = () => {
 
             <section className='conatiner1'>
                 <div className="item">
-                    school
-                    blah <br/>
-                    blah ASDFGHJKSDFGHJK AFSFGH SFG SRGHERGJBW SFJHVBWOUW VSOUYVGNWUTYVWO VOUWYGFV OUWE FUOEGVOJSHV UYSGFVJKS TJS OEFVGSDUHBFV LSJGH OUSYFVH SJDFBV OWRGTVN SODUYFBV OSDJBHG ISDUCHVOSUBF VLJSBFV
+                <div className='inner-item'>
+                        <h3>French 🇫🇷</h3>
+                        I've been taking French classes for over 5 years now. I am proficient at conversational French along with reading and writing!
+                        <br/><br/>
+                        I hope to have the chance to work and live in France as an opportunity to test my skills and live someplace new.
+                    </div>
                 </div>
+
+                <div className="item">
+                    <div className='inner-item'>
+                        <h3>UCR Womens Soccer</h3>
+                        I am on the UCR Womens D1 soccer team.<br/><br/>
+                        I grew up playing center back and switched to forward here at UCR!
+                    </div>
+                    <div className='inner-item'>
+                        <img src={soccer1} className='interest-img'/>
+                    </div>
+                    <div className='inner-item'>
+                        <img src={soccer2} className='interest-img'/>
+                    </div>
+                </div>
+
+                <div className="item">
+                    <div className='inner-item'>
+                        <h3>UCR Belltower </h3>
+                        I am absolutely in love with the UCR campus!
+                    </div>
+                    <div className='inner-item'>
+                        <img src={tower} className='interest-img'/>
+                    </div>
+                </div>
+
             </section>
 
 {/* ========================================== */}
@@ -72,18 +127,35 @@ const Interests = () => {
 
             <section className='conatiner1'>
                 <div className="item">
-                    SOMETHING
-                    blah <br/>
-                    blah     blah ASDFGHJKSDFGHJK AFSFGH SFG SRGHERGJBW SFJHVBWOUW VSOUYVGNWUTYVWO VOUWYGFV OUWE FUOEGVOJSHV UYSGFVJKS TJS OEFVGSDUHBFV LSJGH OUSYFVH SJDFBV OWRGTVN SODUYFBV OSDJBHG ISDUCHVOSUBF VLJSBFV
-                    blah ASDFGHJKSDFGHJK AFSFGH SFG SRGHERGJBW SFJHVBWOUW VSOUYVGNWUTYVWO VOUWYGFV OUWE FUOEGVOJSHV UYSGFVJKS TJS OEFVGSDUHBFV LSJGH OUSYFVH SJDFBV OWRGTVN SODUYFBV OSDJBHG ISDUCHVOSUBF VLJSBFV
-
+                    <div className='inner-item'>
+                        <h3>President of SAAC ⚽️</h3>
+                        2023-2025
+                        <br/><br/>
+                            I am the president of the Student Athletic Advisory Committee for UC Riverside Athletics. <br/><br/>
+                            Plan quarterly events focusing on community, campus connection, and athlete culture. <br/><br/>
+                            Teach athletes community, leadership skills, and inclusivity. <br/><br/>
+                            Connect UCR with other schools of the Big West Conference. <br/><br/>
+                            Below are two of the events we as SAAC have hosted recently.
+                    </div>
+                    <div className='inner-item'>
+                        <img src={saac1} className='interest-img'/>
+                    </div>
+                    <div className='inner-item'>
+                        <img src={saac2} className='interest-img'/>
+                    </div>
                 </div>
                 <div className="item">
-                    SOMETHING
-                    blah <br/>
-                    blah     blah ASDFGHJKSDFGHJK AFSFGH SFG SRGHERGJBW SFJHVBWOUW VSOUYVGNWUTYVWO VOUWYGFV OUWE FUOEGVOJSHV UYSGFVJKS TJS OEFVGSDUHBFV LSJGH OUSYFVH SJDFBV OWRGTVN SODUYFBV OSDJBHG ISDUCHVOSUBF VLJSBFV
-                    blah ASDFGHJKSDFGHJK AFSFGH SFG SRGHERGJBW SFJHVBWOUW VSOUYVGNWUTYVWO VOUWYGFV OUWE FUOEGVOJSHV UYSGFVJKS TJS OEFVGSDUHBFV LSJGH OUSYFVH SJDFBV OWRGTVN SODUYFBV OSDJBHG ISDUCHVOSUBF VLJSBFV
-
+                    <div className='inner-item'>
+                        <h3>Cooking</h3>
+                        Cooking is one of my favorite hobbies, I love to try new recipes and family favorites. <br/><br/>
+                        Below is my mom's chicken pot pie recipe that I made, followed by Ratatouille. 
+                    </div>
+                    <div className='inner-item'>
+                        <img src={pie} className='interest-img'/>
+                    </div>
+                    <div className='inner-item'>
+                        <img src={cook} className='interest-img'/>
+                    </div>
                 </div>
             </section>
 

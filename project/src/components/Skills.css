@@ -1,0 +1,26 @@
+
+.title{
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+
+}
+
+.bubble{
+    width: 150px; /* Set the width */
+    height: 150px; /* Set the height equal to the width to make a perfect circle */
+    border-radius: 50%; /* Set border-radius to 50% to make it a circle */
+    background-color: rgb(77, 0, 75); /* Set the background color to purple */
+    margin-left: 25px;
+
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; 
+    
+}
+
+.bubble p{
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: large;
+}
