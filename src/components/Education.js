@@ -22,13 +22,20 @@ const Education = () => {
             <div className="box-left">
                 <h2>University of California, Riverisde</h2>
                 <h3>Computer Science with Business Applications</h3>
-                <p>Graduation date: 2021-2025 (expected)</p>
-                <p>GPA: 3.88 </p>
-                <p>Student-Athlete: D1 Women's Soccer </p>
+                <p>Undergraduate Degree </p>
+                <p>Graduation date: 2021-2025 </p>
+                <p>GPA: 3.89 </p>
+                <h2>University of California, Riverisde</h2>
+                <h3>Computer Science</h3>
+                <p>Graduate Degree </p>
+                <p>Graduation date: 2025-2026 (expected)</p>
+               
             </div>
             <div className="box-right">
                 <h2>Relevant Courses</h2>
-                <p>Data Structures and Algorithms <br/> Assembly language <br/> Micro-architecture <br/> Databases <br/> Discrete structures <br/> Web Development</p>
+                <p>Data Structures and Algorithms <br/> Assembly language <br/> Micro-architecture <br/> Databases <br/> Discrete structures <br/> Web Development <br/> Embedded Systems </p>
+                <h2>Student-Athlete </h2> 
+                <h3>D1 Women's Soccer</h3>
             </div>
 
         </section>

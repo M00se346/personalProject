@@ -79,6 +79,36 @@ const Skills = () => {
             </div>
         </Carousel>
 
+        <Carousel responsive={responsive}> 
+            <div className='bubble2'>
+               <p>Git</p>
+            </div>
+
+            <div className='bubble2'>
+                <p>MongoDB</p>
+            </div>
+
+            <div className='bubble2'>
+                <p>Node.js</p>
+            </div>
+
+            <div className='bubble2'>
+                <p>Arduino UNO</p>
+            </div>
+
+            <div className='bubble2'>
+                <p>Verilog</p>
+            </div>
+
+            <div className='bubble2'>
+                <p>Valgrind</p>
+            </div>
+
+            <div className='bubble2'>
+                <p>Matlab</p>
+            </div>
+
+        </Carousel>
 
 
     </section>

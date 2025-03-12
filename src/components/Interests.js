@@ -11,6 +11,13 @@ import soccer2 from '../interests-pics/soccer2.JPG';
 import tower from '../interests-pics/tower.JPG'; 
 import pie from '../interests-pics/pie.JPG'; 
 import cook from '../interests-pics/cook.JPG'; 
+import beach1 from '../interests-pics/beach1.png'; 
+import beach2 from '../interests-pics/beach2.png'; 
+import saac3 from '../interests-pics/saac3.png'; 
+import raa1 from '../interests-pics/raa1.png'; 
+
+
+
 
 
 
@@ -75,10 +82,17 @@ const Interests = () => {
                 <div className="item">
                     <div className='inner-item'>
                         <h3>Volunteering</h3>
-                        2016-2019
-                        <br/><br/>
-                        Volunteer at the San Jose Food Shelter for all of Highschool
-                        <br/><br/>
+                        <h4>Huntington Beach Clean-up</h4>
+                        2025-Present
+                        <br/> <br/>
+                        <div className='inner-item'>
+                            <img src={beach1} className='interest-img'/>
+                        </div>
+                        <div className='inner-item'>
+                            <img src={beach2} className='interest-img'/>
+                        </div>
+                        <br/>
+                        
                    </div>
                 </div>
 
@@ -90,7 +104,7 @@ const Interests = () => {
                 <div className="item">
                 <div className='inner-item'>
                         <h3>French 🇫🇷</h3>
-                        I've been taking French classes for over 5 years now. I am proficient at conversational French along with reading and writing!
+                        I've been taking French classes for over 6 years now. I am proficient at conversational French along with reading and writing!
                         <br/><br/>
                         I hope to have the chance to work and live in France as an opportunity to test my skills and live someplace new.
                     </div>
@@ -100,7 +114,7 @@ const Interests = () => {
                     <div className='inner-item'>
                         <h3>UCR Womens Soccer</h3>
                         I am on the UCR Womens D1 soccer team.<br/><br/>
-                        I grew up playing center back and switched to forward here at UCR!
+                        I grew up playing center back and switched to wing-forward here at UCR!
                     </div>
                     <div className='inner-item'>
                         <img src={soccer1} className='interest-img'/>
@@ -120,6 +134,20 @@ const Interests = () => {
                     </div>
                 </div>
 
+                <div className="item">
+                    <div className='inner-item'>
+                    <h3>Volunteering</h3>
+                        <h4>Read Across America</h4>
+                        2025 
+                        <br/> <br/>
+
+                        <div className='inner-item'>
+                            <img src={raa1} className='interest-img'/>
+                        </div>
+                        <br/>
+                    </div>
+                </div>
+
             </section>
 
 {/* ========================================== */}
@@ -132,10 +160,13 @@ const Interests = () => {
                         2023-2025
                         <br/><br/>
                             I am the president of the Student Athletic Advisory Committee for UC Riverside Athletics. <br/><br/>
-                            Plan quarterly events focusing on community, campus connection, and athlete culture. <br/><br/>
+                            Led a team of 25+ student-athletes to plan 3-5 events yearly focusing on community, campus, athlete connection. <br/><br/>
+                            Monthly meetings to connect UCR with Big West Conference; Changes to conference level competition and legal input prior to any Big West Conference changes. <br/><br/>
                             Teach athletes community, leadership skills, and inclusivity. <br/><br/>
-                            Connect UCR with other schools of the Big West Conference. <br/><br/>
-                            Below are two of the events we as SAAC have hosted recently.
+                            Below are some past events hosted by SAAC.
+                    </div>
+                    <div className='inner-item'>
+                        <img src={saac3} className='interest-img'/>
                     </div>
                     <div className='inner-item'>
                         <img src={saac1} className='interest-img'/>

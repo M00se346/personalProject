@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import laptop from '../assets/laptop.png'; 
-import bytes from '../assets/bytes.jpg'; 
+import bytes from '../assets/bytes.png'; 
 import tweet from '../assets/tweet.png'; 
 import lab5 from '../assets/lab5.png'; 
 
@@ -32,9 +32,11 @@ const Projects = () => {
                 <div className="inner-right">
                     <h3>2023 - Present</h3>
                     <h3>Co-Founder</h3>
+                    <a href="https://www.youtube.com/@BytesUniversity" target="_blank"  rel="noopener noreferrer" className='resume'>Bytes University</a>
+
                     <p>College level Computer Science tutoring videos. <br/> <br/>
-Topics include: Data Structures and Algorithms, Assembly language, Microarchitecture, and Discrete structures <br/> <br/>
-Visual instruction on whiteboards for example walkthroughs, lectures, and definition videos 
+                    Written and filmed 20+ videos aiding 100+ students in mastering core computer science concepts with walkthrough example videos <br/><br/>
+Topics include: Data Structures and Algorithms, Assembly language, Microarchitecture, and Discrete structures 
 </p>
                 </div>
                 

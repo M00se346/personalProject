@@ -24,3 +24,18 @@
     font-weight: 600;
     font-size: large;
 }
+
+
+.bubble2{
+    width: 150px; /* Set the width */
+    height: 150px; /* Set the height equal to the width to make a perfect circle */
+    border-radius: 50%; /* Set border-radius to 50% to make it a circle */
+    background-color: rgb(136, 74, 132); /* Set the background color to purple */
+    margin-left: 25px;
+    margin-top: 25px;
+
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; 
+    
+}

@@ -33,7 +33,7 @@ const Hero = () => {
                     </div>
 
                     <div className='inner-inner-left-resume image-frame'>
-                        <a href="https://www.flipsnack.com/A7FBF6BBDC9/kelsey_musolf_resume/full-view.html" target="_blank"  rel="noopener noreferrer" className='resume'>View My Resume (PDF)</a>
+                        <a href="https://docs.google.com/document/d/1wpggTFh3klQ67okNoSYi91cafu9FIZI3oj2kaqEPai8/edit?usp=sharing" target="_blank"  rel="noopener noreferrer" className='resume'>View My Resume (PDF)</a>
                     </div>
                     <div className="inner-inner-left">
                            <h3>Contact Me:</h3>
@@ -60,18 +60,19 @@ const Hero = () => {
                 </div>
                 
                 <div className='me'>
-                    Originally from San Jose, California, I bring a vibrant energy and a can-do attitude to everything I do.
+                    Originally from San Jose, California, I relocated to southern California for college. I have fallen in love with Riverside and the community here, and hope to continue my work in SoCal.
                     I thrive in collaborative environments and am eager to learn from seasoned professionals in the tech industry.
                 </div>
 
                 <div className='me'>
-                    With a solid foundation in computer science coursework and hands-on projects, I'm well-equipped to tackle challenges and bring fresh perspectives to the table. 
-                    My technical skills include coding in C++, Java, Python, JavaScript, and lots more! All my wonderful talents can be found under the 'Skills' page here on my website.
+                    With a solid foundation in computer science coursework and hands-on projects, I'm looking for software engineering opportunities as well as project management positions. 
+                    My technical skills include coding in C++, C, Java, Python, and JavaScript. A more extensive list can be found under the 'Skills' page here on my website.
                 </div>
 
                 <div className='me'>
                     Outside of coding, you'll find me on the soccer field, where I've honed my teamwork, leadership, and problem-solving abilities. 
                     Whether it's on the pitch or behind a computer screen, I'm always up for a challenge and ready to make an impact.
+                    Besides soccer, my hobbies include cooking and baking. I love trying new recipes and baking any kind of bread. I am most adept at sourdough recipes but looking to try new things! 
                 </div>
 
                 <div className='me'>
