@@ -2,6 +2,7 @@ import React from 'react';
 import './Projects.css';
 import laptop from '../assets/laptop.png'; 
 import bytes from '../assets/bytes.png'; 
+import wordle from '../assets/wordle.png'; 
 import tweet from '../assets/tweet.png'; 
 import lab5 from '../assets/lab5.png'; 
 
@@ -20,6 +21,36 @@ const Projects = () => {
 
 
         <section className="skillsContainer">
+
+            <div className="project">
+                <div className="inner-left">
+                    <div className="inner-upper-left">
+                        <h2>Wordle</h2>
+                    </div>
+                    <div className="inner-upper-left">
+                        <img src={wordle} className='project-img'/>
+                    </div>
+                </div>
+                <div className="inner-right">
+                    <h3>Fall 2024</h3>
+                    <h3>UC Riverside Student Project</h3>
+                    <a href="https://www.youtube.com/watch?v=q8epqr3waqM" target="_blank"  rel="noopener noreferrer" className='resume'>Wordle Demo</a>
+
+                    <p>Developed a fully functioning Wordle game on Arduino Uno using the EGLOO kit, 
+                        implementing interactive gameplay with hardware components and embedded programming. <br/> <br/>
+                        Programmed microcontrollers in C/C++ to interface with sensors, motors, and other peripherals. <br/> <br/>
+                        Designed and debugged real-time systems, including LED matrix control, LCD ST7735 Screen, and a 
+                        motion-detection system. <br/> <br/>
+                        Applied concepts such as pulse-width modulation (PWM), serial communication, 
+                        and interrupt-driven programming to build functional prototypes.<br/> <br/>
+                    </p>
+                </div>
+                
+            </div>
+
+
+
+
             <div className="project">
                 <div className="inner-left">
                     <div className="inner-upper-left">
